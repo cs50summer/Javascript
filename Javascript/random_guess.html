@@ -9,18 +9,18 @@
   <body>
     <div id="root"></div>
     <script>
-      let guessNumber=0;
-      let numberToGuess=71;
+      let guessNumber = 0;
+      let numberToGuess = 71;
       let guess;
 
-      do{
-          guess=Math.floor(Math.random()*100);
-          guessNumber++;
-      }while( guess != numberToGuess );
+      do {
+        guess = Math.floor(Math.random() * 100);
+        guessNumber++;
+      } while (guess != numberToGuess);
 
-      documnet.getElementById('root').innerHTML=`
+      documnet.getElementById("root").innerHTML = `
       <h2> I guessed it !</h2>
-      <p> It took only ${guessNumber} guesses ! </p> ;
+      <p> It took only ${guessNumber} guesses ! </p>`;
     </script>
   </body>
 </html>
