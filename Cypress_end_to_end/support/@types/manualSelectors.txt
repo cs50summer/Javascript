@@ -1,0 +1,8 @@
+"closed-offering-button"
+"currently-funding-group"
+"gauging-interest-group"
+"how-it-works-creation"
+"how-it-works-invest"
+"how-it-works-returns"
+"not-currently-funding-group"
+"project-cta-button"
